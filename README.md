@@ -1,6 +1,13 @@
 # HDPEarningsCall
 This code uses hierarchical Dirichlet process to earnings call data and do performance analysis
 
+### Data
+The data is collected from the following sources:
+1. WRDS (Wharton Research Data Services)
+2. Yahoo Finance (using yfinance library)
+
+Due to WRDS issues, the data is not included in the repository. If you want to use the data, please use WRDS to download the data.
+
 ### For using the HDP Model
 *Need to be done before installing required environment and libraries*
 I've used "tomotopy" as the HDP library.
