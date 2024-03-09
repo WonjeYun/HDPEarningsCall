@@ -1,0 +1,4 @@
+data/
+model/
+.DS_Store
+*.log
