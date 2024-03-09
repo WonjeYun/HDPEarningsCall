@@ -1,24 +1,11 @@
 import numpy as np
 import pandas as pd
 from pandas.errors import SettingWithCopyWarning
-import matplotlib.pyplot as plt
-import seaborn as sns
 import pickle
 from tqdm import tqdm
-import datetime
-
-import logging
-logging.getLogger('yfinance').setLevel(logging.CRITICAL)
 
 import warnings
 warnings.simplefilter(action="ignore", category=[SettingWithCopyWarning, DeprecationWarning])
-
-import spacy
-
-import pyLDAvis.gensim_models
-pyLDAvis.enable_notebook()
-
-import gensim
 
 import tomotopy as tp
 
