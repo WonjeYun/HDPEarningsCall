@@ -1,0 +1,4 @@
+pyLDAvis==3.4.1
+spacy==3.7.4
+tomotopy==0.12.7
+yfinance==0.2.37
