@@ -1,4 +1,5 @@
 data/
 model/
 .DS_Store
+wrds_sql_script.ipynb
 *.log
