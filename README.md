@@ -1,10 +1,13 @@
 # HDPEarningsCall (WIP)
-This code uses hierarchical Dirichlet process (HDP) using [tomotopy](https://github.com/bab2min/tomotopy) to earnings call data and do performance analysis
+This repository is the code for the MA Thesis project "Analysis of Topic Modeling on the Stock Market" by Wonje Yun, for Masters of Computational Social Sciences at University of Chicago.
+
+The thesis and repository applies hierarchical Dirichlet process (HDP) using [tomotopy](https://github.com/bab2min/tomotopy) to earnings call data and do performance analysis.
 
 ## Data
 The data is collected from the following sources:
 1. Wharton Research Data Services (WRDS)'s python API
     * Capital IQ's transcript data through SQL query
+    * The query for the data is not provided in the repository
 2. Yahoo Finance
     * Using yfinance python library to get stock price data
 
@@ -12,6 +15,13 @@ Due to WRDS being restricted access, the data is not included in the repository.
 The query and python code used to get the data is in the "wrds_query.py" file.
 
 ## Code Explanation
+1. "utils.py"
+2. "preprocessing_token.py"
+3. "hdp_training.py"
+4. "trend_word_change.py"
+5. "evaluation.py"
+6. "HDPEarningsCall.ipynb"
+
 ## Requirements
 ### For using the HDP Model
 *Need to be done before installing required environment and libraries*
@@ -51,6 +61,17 @@ conda create -n <YourEnvName> python=3.10.13
 3. To install the additional required libraries, run the following command in the terminal.
 ```bash
 pip install -r requirements.txt
+```
+
+## For citation
+```bibtex
+@misc{HDPEarningsCall,
+  author = {Wonje Yun},
+  title = {HDP Earnings Call},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/WonjeYun/HDPEarningsCall}}
 ```
 
 ## Reference and License
