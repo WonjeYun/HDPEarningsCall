@@ -2,5 +2,6 @@ data/
 model/
 .DS_Store
 wrds_sql_script.py
+wrds_sql_script.sh
 *.log
 pyrightconfig.json
