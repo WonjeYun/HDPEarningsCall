@@ -8,6 +8,7 @@ The data is collected from the following sources:
 1. Wharton Research Data Services (WRDS)'s python API
     * Capital IQ's transcript data through SQL query
     * The query for the data is not provided in the repository
+    * Due to the size of the data, the querying and initial processing was done in WRDS Cloud by submitting batch jobs.
 2. Yahoo Finance
     * Using yfinance python library to get stock price data
 
